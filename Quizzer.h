@@ -1,7 +1,7 @@
 #pragma once
 #include <stdarg.h>
 #include <ctime>
-#include "../Safety.h"
+#include "Safety.h"
 class QAnswer {
 public:
 	char* answer;
