@@ -52,4 +52,5 @@ int main(int argc, char* argv[]) {
 	loud_noises.run(&num_right);
 	printf("You got %d of %d questions right.\nThat's %d%%.\n", num_right, num_questions, (int)(100 * (float)(num_right) / (float)num_questions));
 	if (num_right == num_questions) printf("Perfect score!\n");
+	return 0;
 }
