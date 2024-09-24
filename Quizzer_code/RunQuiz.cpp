@@ -24,10 +24,10 @@ int main(int argc, char *argv[]) {
 		"Artificial intelligence",
 		"Staying the same");
 	Question story = Question("Describe at least TWO methods that might be used to study brain 'machinery' in neuropsychology patients", 1, 1,
-		"There are several methods that might be used to understand brain ‘machinery’ and understand certain functions.\n"
+		"There are several methods that might be used to understand brain â€˜machineryâ€™ and understand certain functions.\n"
 		"Neuropsychology patients may be used as subjects in different types of brain studies.\n"
 		"These can include functional MRI (fMRI), neurophysiology studies, EEG, magnetoencephalography, and diffusion tractography.");
-	Question bold = Question("In the acronym BOLD, the ‘B’ stands for....", 4, 3, "Bilirubin", "Bladder", "Blood", "Binding");
+	Question bold = Question("In the acronym BOLD, the â€˜Bâ€™ stands for....", 4, 3, "Bilirubin", "Bladder", "Blood", "Binding");
 	
 	Colors_q_I_made.run(&num_right);
 	brain_study.run(&num_right);
