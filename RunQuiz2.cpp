@@ -4,7 +4,7 @@
 #include <iostream>
 
 
-int main(int argc, char* argv[]) {
+int main2(int argc, char* argv[]) {
 	int num_right = 0;
 	int num_questions = 6;
 	Question Object_recocnition = Question("What factor might affect if object recognition is left intact when someone has prosopagnosia?", 4, 3,
