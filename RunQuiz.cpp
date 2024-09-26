@@ -4,7 +4,7 @@
 #include <iostream>
 
 
-int main1(int argc, char *argv[]) {
+int main(int argc, char *argv[]) {
 	int num_right = 0;
 	int num_questions = 5;
 	Question Colors_q_I_made = Question("What affects your sight?", 4, 3,
